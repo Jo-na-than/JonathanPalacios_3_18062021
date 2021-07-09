@@ -130,11 +130,34 @@ ul li a {
   color: #4d4d4d;
 }
 
-.howto__title {
+.operation {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .operation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .operation {
+    padding: 0 20%;
+  }
+}
+
+.operation h2 {
+  padding: 60px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.operation__steps {
   padding-left: 10px;
 }
 @media screen and (min-width: 1280px) {
-  .howto__title {
+  .operation__steps {
     position: absolute;
     top: 350px;
     display: flex;
@@ -144,43 +167,30 @@ ul li a {
   }
 }
 
-.number {
+.operation__steps li {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  background: #9356DC;
-  color: #fff;
-  border-radius: 50%;
-  border: 2px solid #9356DC;
-  width: 25px;
-  height: 25px;
-  position: relative;
-  right: 10px;
-}
-@media screen and (min-width: 768px) {
-  .number {
-    right: 0;
-    top: -15px;
-  }
+  flex-wrap: nowrap;
+  padding: 25px;
+  margin: 15px 20px 15px 30px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px 2px #c4c4c4;
+  background-color: #f5f5f5;
 }
 
-.howto__icon i {
+.operation__steps--number i {
   color: #b2b2b2;
   margin: 0 30px;
 }
 
-@media screen and (min-width: 768px) {
-  .howto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .howto {
-    padding: 0 20%;
-  }
+.operation__steps--number {
+  background-color: #9356dc;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 9px;
+  margin-left: -40px;
 }
 
 @media screen and (min-width: 768px) {
