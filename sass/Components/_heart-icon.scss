@@ -10,7 +10,16 @@
     background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     background-clip:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
 }
+
+figure
+{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
