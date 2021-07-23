@@ -1,5 +1,6 @@
 .btn__about button
 {
+  padding: 10em;
   @include btn-about;
   &:hover 
   {

@@ -26,12 +26,11 @@
   padding-left: 10px;
   @include desktop 
   {
-    position: absolute;
     top: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
   }
 }
 
