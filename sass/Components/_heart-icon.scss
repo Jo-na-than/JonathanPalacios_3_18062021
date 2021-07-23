@@ -1,8 +1,9 @@
-.fill 
+.heart
 {
+  .fill{
   color: black;
-  cursor: pointer;
-  &:hover 
+  cursor: pointer;}
+  &:hover .fill
   {
     animation: fill 0.3s ease-in-out;
     display: inline-block;
