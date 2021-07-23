@@ -304,17 +304,11 @@ figure {
     top: 40%;
     left: 35%;
   }
-  .loader__fork{
-    vertical-align: middle;
-  }
 }
 @media screen and (min-width: 1280px) {
   .loader__food {
     top: 40%;
     left: 45%;
-  }
-  .loader__fork{
-    vertical-align: middle;
   }
 }
 
