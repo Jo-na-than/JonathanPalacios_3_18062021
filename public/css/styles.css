@@ -319,14 +319,6 @@ figure {
   padding-right: 1em;
 }
 
-.loader__fork {
-  vertical-align: middle;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  animation: rotate 1s linear infinite;
-}
-
 .loader__food span:nth-child(1) {
   animation: grow 1s ease-in-out infinite;
 }
@@ -448,7 +440,6 @@ figure {
 }
 
 .btn__about button {
-  padding: 10em;
   background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   border: 1px solid transparent;
   border-radius: 30px;
